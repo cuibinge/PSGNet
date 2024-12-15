@@ -6,7 +6,7 @@ Running environment as follows:
 	torch = 2.5.0+cu118
 	torchaudio = 2.5.0+cu118
 	torchvision = 0.20.0+cu118
-Problems:If downloads the model fail due to network issues in Res2Net.py file,you can mannual download it as https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net50_v1b_26w_4s-3cf99910.pth.
+Problems:If the model download failed due to network issues in Res2Net.py file,you can mannual download it as https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net50_v1b_26w_4s-3cf99910.pth.
 And then,putting it on current file. After, open the line of 195 and 196 while close the line of 197.
 
 	195  # model_state = torch.load('./res2net50_v1b_26w_4s-3cf99910.pth')
