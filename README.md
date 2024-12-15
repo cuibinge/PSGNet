@@ -12,3 +12,5 @@ And then,putting it on current file. After, open the line of 195 and 196 while c
 	195  # model_state = torch.load('./res2net50_v1b_26w_4s-3cf99910.pth')
 	196  # model.load_state_dict(model_state)
 	197  lib.load_state_dict(model_zoo.load_url(model_urls['res2net50_v1b_26w_4s']))
+
+In branch master folder we provided a more complete code.
